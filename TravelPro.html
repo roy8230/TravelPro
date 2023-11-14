@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelPro</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .destination {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+        }
+
+        /* Optional: Add some space between images */
+         .image-container img {
+            margin-right: 5px;
+            width: 500px; /* You can adjust this to your desired width */
+            height: auto; /* This ensures the aspect ratio is maintained */
+        }
+		 img {
+            width: 500px; /* You can adjust this to your desired width */
+            height: auto; /* This ensures the aspect ratio is maintained */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TravelPro</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Packages</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Featured Destinations</h2>
+
+        <div class="destination">
+            <h3>Paris, France</h3>
+            <p>Explore the city of love and iconic landmarks like the Eiffel Tower.</p>
+			<div class="image-container">
+			  <img src="paris_1.jpg" alt="Description of the image">
+			  <img src="paris_2.jpg" alt="Description of the image">
+			 </div>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="destination">
+            <h3>Cologne, Germany</h3>
+            <p>Experience the vibrant culture and modern technology in the heart of Germany.</p>
+			<img src="germany.jpg" alt="Description of the image">
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Travel Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
